@@ -1,0 +1,49 @@
+h1 {
+	background-color: white;
+	mix-blend-mode: screen;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700");
+
+html,
+body{
+    margin:0
+}
+main {
+	overflow: hidden;
+}
+.bg {
+	background-image: url("https://cdn.pixabay.com/photo/2017/04/27/07/26/rock-climbing-2264698_960_720.jpg");
+	background-position: 0% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+}
+
+h1 {
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: calc(5rem + 9.25vw);
+	font-weight: 700;
+	letter-spacing: -0.5rem;
+	line-height: 0.8;
+	margin: 1%;
+	padding: 5%;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.content {
+	box-sizing: border-box;
+}
+
+@media (min-width: 40em) {
+    .content {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        width: 50vw;
+    }
+}
